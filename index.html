@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Funky Town</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <script src="./javascripts/lib/d3.js"></script>
+    <script src="./javascripts/lib/jquery-3.0.0.js"></script>
+  </head>
+  <body>
+    <div id="divDimensionExtender">
+    </div>
+    <script>
+      // svg creation extending on the whole surrounding div
+      var svgMap = d3.select('#divDimensionExtender').append('svg').attr('viewBox', '0 0 3840 2160');
+      // projection Mercator type centered on Paris Place de la République
+      var projection = d3.geoMercator().center([2.359, 48.870]).scale(10000000);
+      // setting the path converter from geo coordinates
+      var pathModel = d3.geoPath().projection(projection);
+
+    // Block Populator Function
+
+      d3.json("./geoJSON/blocks.json", function(blockData)	{
+
+
+
+
+        svgMap.selectAll("path")
+          .select(".block")
+          .data(blockData.features)
+          .enter()
+          .append("svg:path")
+          .attr("class", "block")
+          .attr('id',function(d) { return d.blockID; })
+          .attr("d", pathModel)
+          .style("fill","rgba(180,180,180,0.3)")
+          .attr("stroke-width","5")
+          .attr("stroke-linecap","round")
+          .attr("stroke","rgba(180,180,180,1)")
+          .on("click", function(d) { return click(d.blockID, d.blockColor); });
+      });
+
+    // Interactive Furniture Populator Function
+
+      d3.json("./geoJSON/furnitures.json", function(furnitureData)	{
+
+        // Create a group of elements for each geo-location existing in the json file
+        // All elements are gathered under the class furnitures
+        // The first function is only a pin pointer, the second group of d3 selector are applying the different elements
+
+        svgMap.selectAll(".furniture")
+        .data(furnitureData.features)
+        .enter()
+        .append("g")
+        .attr("class", "furniture")
+        .attr('id', function(d) { return d.blockID; })
+        .attr("transform",  function(d) {
+          var position = projection([d.geometry.coordinates[0],d.geometry.coordinates[1]]);
+          var pinPosition = [position[0]-(47.8/2), position[1]-110];
+          return "translate(" + pinPosition + ")"});
+
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "54.8,25.2 47.6,32.5 2,5.2 11,1.3")
+        .attr("fill","#D0D0D0")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "47.8,37.8 0,8.9 0,84.4 44.2,109.8")
+        .attr("fill","#96999C")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "45.3,109.8 50.3,104.1 56.8,29.5 48.9,37.8")
+        .attr("fill","#96999C")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "4.4,51.2 18.9,60 18,86.6 4.4,78.9")
+        .attr("fill","#FFFFFF")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "15.1,92.4 16.1,124.8 18.9,126.2 22,96.4")
+        .attr("fill","#96999C")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+        d3.selectAll(".furniture").append("polygon")
+        .attr("points", "19.7,126.2 22.4,123 26,100 22.8,98.1")
+        .attr("fill","#96999C")
+        .attr("transform", "scale(0,0)")
+        .transition()
+        .duration(1000)
+        .ease(d3.easeLinear)
+        .attr("transform", "scale(1,1)");
+      });
+
+      d3.json("./geoJSON/events.json", function(eventsData)	{
+
+        // Create a group of elements for each geo-location existing in the json file
+        // All elements are gathered under the class furnitures
+        // The first function is only a pin pointer, the second group of d3 selector are applying the different elements
+
+        svgMap.selectAll(".events")
+        .data(eventsData.features)
+        .enter()
+        .append("g")
+        .attr("class", "events")
+        .attr('id', function(d) { return d.eventID; })
+        .attr("transform",  function(d) {
+          return "translate(" + projection(d.geometry.coordinates) + ")"});
+
+        d3.selectAll(".events").append("circle")
+        .attr("r", 10)
+        .attr("fill","red");
+
+        setInterval(function() {
+        svgMap.selectAll(".events")
+          .append("circle")
+            .attr("class", "ring")
+            .attr("r", 10)
+            .attr("fill","none")
+            .style("stroke-width", 3)
+            .style("stroke", "red")
+          .transition()
+          .duration(6000)
+            .ease(d3.easeLinear)
+            .style("stroke-opacity", 1e-6)
+            .style("stroke-width", 1)
+            .style("stroke", "red")
+            .attr("r", 120)
+            .remove();
+      }, 1000);
+
+      });
+
+      // d3.json("./geoJSON/roads.json", function(roadData)	{
+      //
+      //   // Create a group of elements for each geo-location existing in the json file
+      //   // All elements are gathered under the class furnitures
+      //   // The first function is only a pin pointer, the second group of d3 selector are applying the different elements
+      //
+      //   svgMap.selectAll(".roads")
+      //   .data(roadData.features)
+      //   .enter()
+      //   .append("path")
+      //   .attr("class", "roads")
+      //   .attr('id',function(d) { return d.streetID; })
+      //   .attr("d", pathModel)
+      //   .style("fill","none")
+      //   .attr("stroke-width","5")
+      //   .attr("stroke-linejoin","round")
+      //   .attr("stroke","rgba(200,200,200,0.5)");
+      //
+      //
+      // });
+
+  var caterpillar;
+
+  function click(id, blockColor)  {
+    var posX = event.pageX;
+    var posY = event.pageY;
+    clearInterval(caterpillar);
+    val = document.querySelector("#"+id);
+    d3.selectAll("path.block").style("fill","rgba(180,180,180,0.3)").style("fill-opacity", "1").attr("stroke","rgba(180,180,180,1)").style("stroke-dasharray", "none");
+    d3.select('#'+id).transition()
+    .delay(450).style("fill",blockColor).style("fill-opacity", "0.3").attr("stroke",blockColor);
+    var length = val.getTotalLength();
+    console.log('Length : '+ length);
+    val.style.strokeDasharray = 20;
+    val.style.strokeDashoffset = 0;
+    var counter = 0;
+    caterpillar = setInterval(function(){
+      if(counter>= length )  {
+        val.style.strokeDashoffset = 0;
+        counter = 0;
+      }
+      else {
+        counter = counter+1;
+      val.style.strokeDashoffset = counter;
+      }
+    }, 50/(0.001*length));
+    d3.select("#commentBox").remove();
+    svgMap.append("g").attr('id', 'commentBox').append("path").attr('id', 'commentBoxBackground')
+    .attr("d", "M 825.71428,889.50502 740,980.93363 822.85714,815.2193 697.14286,983.79073 820,755.2193 645.71428,989.50503 822.85714,660.93359 591.42857,983.79073 l 220,-382.85714 L 537.14286,983.79073 791.42857,538.07645 477.14286,989.50503 748.57143,520.93359 417.14286,983.79073 l 260,-457.14285 -320,460.00005 L 605.71428,518.07645 314.28571,978.07643 537.14286,523.79073 262.85714,989.50503 474.28571,526.64788 200,986.64793 417.14286,512.36216 148.57143,983.79073 354.28571,515.2193 91.428571,980.93363 288.57143,520.93359 71.428571,912.36216 225.71428,520.93359 82.857142,786.64788 165.71428,523.79073 85.714285,638.07645 111.42857,540.93359 85.714285,558.07645").attr("transform", "translate(" + (posX + 300) + ","+(posY-600)+")")
+    .attr("fill", "none")
+    .attr("stroke-width","50")
+    .attr("stroke-linecap","round")
+    .attr("stroke-linejoin","round")
+    .attr("stroke", blockColor)
+    .attr("stroke-opacity","0.7")
+    .attr("stroke-dasharray","none").style("display","none");
+
+    commentArea = document.querySelector("#commentBoxBackground");
+    commentPathLength = commentArea.getTotalLength();
+    commentArea.style.transition = commentArea.style.WebkitTransition = 'none';
+    // Set up the starting positions
+    commentArea.style.strokeDasharray = commentPathLength + ' ' + commentPathLength;
+    commentArea.style.strokeDashoffset = commentPathLength;
+    // Trigger a layout so styles are calculated & the browser
+    // picks up the starting position before animating
+    d3.select("#commentBoxBackground").style("display","block");
+    commentArea.getBoundingClientRect();
+    // Define our transition
+    commentArea.style.transition = commentArea.style.WebkitTransition = 'stroke-dashoffset 2s ease-in-out';
+    // Go!
+    commentArea.style.strokeDashoffset = '0';
+    d3.select("#commentBox").append("text").text("Louise Lelièvre du 11ème propose : ").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+50)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+    d3.select("#commentBox").append("text").text("Pourquoi ne pas installer ici un mobilier").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+100)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+    d3.select("#commentBox").append("text").text("urbain informatif et le renommer").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+150)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+    d3.select("#commentBox").append("text").text("\"Vivons libres et heureux dans la").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+200)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+    d3.select("#commentBox").append("text").text("ville\" ?").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+250)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+    d3.select("#commentBox").append("text").text("Posté il y a 10 minutes").style("fill", "rgb(255,255,255)").style("font-size", "32px").style("font-family", "MV Boli").attr("transform", "translate(" + (450 + posX) + ","+(posY+300)+")").attr('opacity', 0).transition()
+    .delay(2000)
+    .duration(1250)
+    .attr('opacity', 1);
+  }
+
+// rgba(255,141,127,0.8)
+
+
+</script>
+  </body>
+</html>

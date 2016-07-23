@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "eventID": "SoundSpot0",
+      "properties": {
+        "eventName": "Zone musicale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.361107,
+          48.868266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "eventID": "SoundSpot1",
+      "properties": {
+        "eventName": "Zone musicale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.363767, 48.867212
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "blockID": "InteractiveFurniture_00",
+      "properties": {
+        "blockName": "Mobilier Interactif République"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.36354,
+          48.867826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "InteractiveFurniture_01",
+      "properties": {
+        "blockName": "Mobilier Interactif République"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.364678, 48.866826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "InteractiveFurniture_02",
+      "properties": {
+        "blockName": "Mobilier Interactif Saint Martin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.359581, 48.868603
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+@@font-face {
+  font-family: "MV Boli";
+  font-weight: medium;
+  src: url("../fonts/mvboli.ttf")
+}
+
+html, body  {
+  background-color: rgb(50,50,65);
+  margin: 0;
+  padding: 0;
+  width: 3840px;
+  height: 2160px;
+}
+
+.shade {
+    stroke-width: 20.7;
+    stroke: #e5e5e5;
+}

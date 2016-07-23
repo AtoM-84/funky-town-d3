@@ -1,0 +1,1311 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_0",
+      "blockColor":"rgb(240,0,0)",
+      "properties": {
+        "blockName": "Place de la République"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.363257,
+              48.86859
+            ],
+            [
+              2.365664,
+              48.867129
+            ],
+            [
+              2.365128,
+              48.86677
+            ],
+            [
+              2.364683,
+              48.866551
+            ],
+            [
+              2.363547,
+              48.867227
+            ],
+            [
+              2.36352,
+              48.867317
+            ],
+            [
+              2.363448,
+              48.867377
+            ],
+            [
+              2.362524,
+              48.867937
+            ],
+            [
+              2.362637,
+              48.868057
+            ],
+            [
+              2.362972,
+              48.868313
+            ],
+            [
+              2.363098,
+              48.868456
+            ],
+            [
+              2.363096,
+              48.868491
+            ],
+            [
+              2.363257,
+              48.86859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_1",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc de l'Apollo Theatre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.365609,
+              48.868158
+            ],
+            [
+              2.367003,
+              48.868621
+            ],
+            [
+              2.368588,
+              48.866561
+            ],
+            [
+              2.366923,
+              48.866843
+            ],
+            [
+              2.366907,
+              48.867001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75011_bl_2",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc angle République/Voltaire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.367201,
+              48.866516
+            ],
+            [
+              2.3665,
+              48.866098
+            ],
+            [
+              2.365539,
+              48.866655
+            ],
+            [
+              2.365653,
+              48.86681
+            ],
+            [
+              2.367315,
+              48.866296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75011_bl_3",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc angle Voltaire/Temple"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.365285,
+              48.86646
+            ],
+            [
+              2.366021,
+              48.866014
+            ],
+            [
+              2.366466,
+              48.864886
+            ],
+            [
+              2.366021,
+              48.864772
+            ],
+            [
+              2.365072,
+              48.866364
+            ],
+            [
+              2.365285,
+              48.86646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_4",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc angle Temple/Béranger"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.36453,
+              48.866396
+            ],
+            [
+              2.365236,
+              48.865222
+            ],
+            [
+              2.364739,
+              48.864827
+            ],
+            [
+              2.364646,
+              48.864851
+            ],
+            [
+              2.364555,
+              48.864855
+            ],
+            [
+              2.363161,
+              48.867088
+            ],
+            [
+              2.363278,
+              48.86713
+            ],
+            [
+              2.36453,
+              48.866396
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_5",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc République/Malt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364753,
+              48.867714
+            ],
+            [
+              2.36486,
+              48.86783
+            ],
+            [
+              2.365413,
+              48.868063
+            ],
+            [
+              2.366603,
+              48.866912
+            ],
+            [
+              2.365783,
+              48.867092
+            ],
+            [
+              2.364753,
+              48.867714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_6",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc République/Toudic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364476,
+              48.867891
+            ],
+            [
+              2.363285,
+              48.868604
+            ],
+            [
+              2.364379,
+              48.869084
+            ],
+            [
+              2.365259,
+              48.868188
+            ],
+            [
+              2.364476,
+              48.867891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_7",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Charlot/Temple"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.365277,
+              48.865114
+            ],
+            [
+              2.365631,
+              48.864567
+            ],
+            [
+              2.364762,
+              48.863817
+            ],
+            [
+              2.364762,
+              48.864629
+            ],
+            [
+              2.364803,
+              48.864672
+            ],
+            [
+              2.364786,
+              48.86474
+            ],
+            [
+              2.365277,
+              48.865114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_8",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Jouhaut/Toudic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.366905, 48.868749
+            ],
+            [
+              2.365470, 48.868281
+            ],
+            [
+              2.364597, 48.869170
+            ],
+            [
+              2.366155, 48.869682
+            ],
+            [
+              2.366905, 48.868749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_9",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc St Martin/Meslay"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362968, 48.867359
+            ],
+            [
+              2.362078, 48.867874
+            ],
+            [
+              2.355714, 48.868863
+            ],
+            [
+              2.355550, 48.868661
+            ],
+            [
+              2.362793, 48.867269
+            ],
+            [
+              2.362968, 48.867359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_10",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc St Martin/Meslay"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362590, 48.868343
+            ],
+            [
+              2.362216, 48.868077
+            ],
+            [
+              2.361341, 48.868195
+            ],
+            [
+              2.361364, 48.868314
+            ],
+            [
+              2.362590, 48.868343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_11",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Boulanger/Chateau d'eau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362822, 48.868559
+            ],
+            [
+              2.362815, 48.868476
+            ],
+            [
+              2.362770, 48.86844
+            ],
+            [
+              2.361020, 48.868402
+            ],
+            [
+              2.359928, 48.868628
+            ],
+            [
+              2.360743, 48.869794
+            ],
+            [
+              2.362478, 48.868874
+            ],
+            [
+              2.362822, 48.868559
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_12",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Jouhaux/Beaurepaire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.363346, 48.868758
+            ],
+            [
+              2.363264, 48.868807
+            ],
+            [
+              2.363443, 48.869191
+            ],
+            [
+              2.363762, 48.868956
+            ],
+            [
+              2.363346, 48.868758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_13",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Béranger/Temple"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.363028, 48.867044
+            ],
+            [
+              2.362093, 48.866686
+            ],
+            [
+              2.361542, 48.866381
+            ],
+            [
+              2.360992, 48.865870
+            ],
+            [
+              2.362531, 48.865076
+            ],
+            [
+              2.363957, 48.865539
+            ],
+            [
+              2.363028, 48.867044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_14",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Nazareth/Meslay"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362590, 48.867197
+            ],
+            [
+              2.362040, 48.866970
+            ],
+            [
+              2.355102, 48.867947
+            ],
+            [
+              2.355480, 48.868593
+            ],
+            [
+              2.362590, 48.867197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_15",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Carreau/Béranger"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364417, 48.864815
+            ],
+            [
+              2.364013, 48.865466
+            ],
+            [
+              2.362638, 48.865011
+            ],
+            [
+              2.363457, 48.864550
+            ],
+            [
+              2.363690, 48.864623
+            ],
+            [
+              2.364417, 48.864815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_16",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Beaurepaire/Toudic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364310, 48.869182
+            ],
+            [
+              2.363880, 48.868998
+            ],
+            [
+              2.363510, 48.869305
+            ],
+            [
+              2.363715, 48.869779
+            ],
+            [
+              2.364259, 48.869164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_17",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Jouhaux/Valmy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.366069, 48.869774
+            ],
+            [
+              2.364515, 48.869253
+            ],
+            [
+              2.363881, 48.869919
+            ],
+            [
+              2.365369, 48.870686
+            ],
+            [
+              2.366069, 48.869774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_18",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Thomas/Magenta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.363037, 48.868779
+            ],
+            [
+              2.361338, 48.870640
+            ],
+            [
+              2.361430, 48.870779
+            ],
+            [
+              2.363261, 48.869313
+            ],
+            [
+              2.363037, 48.868779
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_19",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Thomas/Toudic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.363599, 48.870005
+            ],
+            [
+              2.363337, 48.869425
+            ],
+            [
+              2.361493, 48.870859
+            ],
+            [
+              2.362102, 48.871425
+            ],
+            [
+              2.362601, 48.871201
+            ],
+            [
+              2.362733, 48.871122
+            ],
+            [
+              2.363622, 48.870000
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_20",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Valmy/Beaurepaire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.365305, 48.870777
+            ],
+            [
+              2.363796, 48.870010
+            ],
+            [
+              2.363682, 48.870125
+            ],
+            [
+              2.363806, 48.870200
+            ],
+            [
+              2.364557, 48.871749
+            ],
+            [
+              2.365305, 48.870777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_21",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Toudic/Beaurepaire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362814, 48.871237
+            ],
+            [
+              2.364236, 48.871752
+            ],
+            [
+              2.364370, 48.871692
+            ],
+            [
+              2.363715, 48.870267
+            ],
+            [
+              2.363634, 48.870211
+            ],
+            [
+              2.362814, 48.871237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_22",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Chateau d'Eau/Magenta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362304, 48.869199
+            ],
+            [
+              2.362363, 48.869051
+            ],
+            [
+              2.360810, 48.869874
+            ],
+            [
+              2.361167, 48.870408
+            ],
+            [
+              2.362258, 48.869262
+            ],
+            [
+              2.362304, 48.869199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_23",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Chausson/Lancry"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.360702, 48.869939
+            ],
+            [
+              2.360144, 48.870257
+            ],
+            [
+              2.360746, 48.870837
+            ],
+            [
+              2.361078, 48.870473
+            ],
+            [
+              2.360702, 48.869939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_24",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Lancry/Taylor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.360648, 48.869842
+            ],
+            [
+              2.359822, 48.868660
+            ],
+            [
+              2.358851, 48.868953
+            ],
+            [
+              2.359587, 48.870443
+            ],
+            [
+              2.360648, 48.869842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_25",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Sampaix/Magenta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.360203, 48.871455
+            ],
+            [
+              2.359506, 48.870612
+            ],
+            [
+              2.357913, 48.871444
+            ],
+            [
+              2.358395, 48.871854
+            ],
+            [
+              2.357558, 48.872213
+            ],
+            [
+              2.357752, 48.872563
+            ],
+            [
+              2.359758, 48.871959
+            ],
+            [
+              2.360203, 48.871448
+            ],
+            [
+              2.360203, 48.871455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_26",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Chausson/Sampaix"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.360058, 48.870298
+            ],
+            [
+              2.359613, 48.870548
+            ],
+            [
+              2.360321, 48.871356
+            ],
+            [
+              2.360686, 48.870915
+            ],
+            [
+              2.360058, 48.870298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_27",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Taylor/Riverin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.359469, 48.870503
+            ],
+            [
+              2.358739, 48.868993
+            ],
+            [
+              2.357752, 48.869254
+            ],
+            [
+              2.358020, 48.869660
+            ],
+            [
+              2.358111, 48.869720
+            ],
+            [
+              2.358819, 48.870867
+            ],
+            [
+              2.359469, 48.870503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_28",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Riverin/Bouchardon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.358719, 48.870910
+            ],
+            [
+              2.358016, 48.869763
+            ],
+            [
+              2.357902, 48.869689
+            ],
+            [
+              2.357643, 48.869279
+            ],
+            [
+              2.357145, 48.869321
+            ],
+            [
+              2.356885, 48.869304
+            ],
+            [
+              2.358190, 48.871197
+            ],
+            [
+              2.358719, 48.870910
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75010_bl_29",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Pte Saint Martin/Boulanger"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.359177, 48.868759
+            ],
+            [
+              2.359093, 48.868570
+            ],
+            [
+              2.356161, 48.869021
+            ],
+            [
+              2.356161, 48.869142
+            ],
+            [
+              2.357108, 48.869236
+            ],
+            [
+              2.357611, 48.869189
+            ],
+            [
+              2.358068, 48.869073
+            ],
+            [
+              2.359177, 48.868759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_30",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Charlot/Turenne"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364648, 48.864578
+            ],
+            [
+              2.364627, 48.863669
+            ],
+            [
+              2.364219, 48.863298
+            ],
+            [
+              2.363955, 48.864030
+            ],
+            [
+              2.364574, 48.864588
+            ],
+            [
+              2.364598, 48.864558
+            ],
+            [
+              2.364648, 48.864578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_31",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Charlot/Franche Comté"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.364490, 48.864620
+            ],
+            [
+              2.363332, 48.863576
+            ],
+            [
+              2.362829, 48.863865
+            ],
+            [
+              2.363534, 48.864442
+            ],
+            [
+              2.363638, 48.864487
+            ],
+            [
+              2.364426, 48.864688
+            ],
+            [
+              2.364441, 48.864640
+            ],
+            [
+              2.364490, 48.864620
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_32",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Temple/Dubois"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.360915, 48.865792
+            ],
+            [
+              2.361394, 48.865551
+            ],
+            [
+              2.360817, 48.864954
+            ],
+            [
+              2.360306, 48.865201
+            ],
+            [
+              2.363638, 48.864487
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_33",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Dubois/Vicaire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.361487, 48.865511
+            ],
+            [
+              2.361952, 48.865276
+            ],
+            [
+              2.361325, 48.864693
+            ],
+            [
+              2.360899, 48.864907
+            ],
+            [
+              2.361497, 48.865511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_34",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Vicaire/Spuller"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362039, 48.865236
+            ],
+            [
+              2.362452, 48.865003
+            ],
+            [
+              2.361840, 48.864424
+            ],
+            [
+              2.361401, 48.864643
+            ],
+            [
+              2.362039, 48.865236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_35",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Spuller/Picardie"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.362528, 48.864959
+            ],
+            [
+              2.363358, 48.864495
+            ],
+            [
+              2.362704, 48.863937
+            ],
+            [
+              2.361914, 48.864375
+            ],
+            [
+              2.362528, 48.864959
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "blockID": "arr_75003_bl_36",
+      "blockColor":"rgb(40,102,187)",
+      "properties": {
+        "blockName": "Bloc Turbigo/Temple"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.361276, 48.866603
+            ],
+            [
+              2.361405, 48.866471
+            ],
+            [
+              2.360347, 48.865443
+            ],
+            [
+              2.360177, 48.865483
+            ],
+            [
+              2.359393, 48.865650
+            ],
+            [
+              2.359743, 48.866122
+            ],
+            [
+              2.359754, 48.866244
+            ],
+            [
+              2.361276, 48.866603
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
